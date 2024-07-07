@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-    @GetMapping("/ms2/second")
+    @GetMapping("/ms1/first")
     public String mainP(){
         return "main";
     }
